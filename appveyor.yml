@@ -2,7 +2,7 @@ image: Visual Studio 2017
 
 environment:
   matrix:
-    - nodejs_version: '10'
+    - nodejs_version: '12'
       npm_version:    '6'
       DEBUG:          'tape-spawn'
       SHARP_IGNORE_GLOBAL_LIBVIPS: '1'

@@ -10,7 +10,7 @@ addons:
     packages:
       - libxml2-utils
 
-node_js: v10
+node_js: v12
 env:
 - npm_version=6
   DEBUG=tape-spawn
