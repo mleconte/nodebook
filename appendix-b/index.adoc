@@ -1,0 +1,30 @@
+:appendix-number: B
+:chapterId: appendix-b
+:sectnums:
+:nodeCurrentVersion: v12
+:npmCurrentVersion: v6
+:revdate: {docdate}
+:sourceDir: ./examples
+:imagesdir: {indir}
+ifdef::env[]
+:imagesdir: .
+endif::[]
+
+[appendix]
+= Nouveautés et changements dans Node.js {nodeCurrentVersion}
+
+include::../docs/web-header.adoc[]
+
+comprendre ce qui change entre les versions majeures
+se préparer à utiliser des fonctionnalités JS (cf. chap 3)
+quoi changer dans son code pour qu'il soit plus lisible/parlant et proche des navigateurs web
+
+include::../docs/tip-versions.adoc[]
+
+== Node.js v12
+
+TBD.
+
+== Node.js v10
+
+TBD.
