@@ -31,6 +31,7 @@ des *outils en ligne de commande*.
 | ✅      | Annexe A : **[Sélection de modules npm][a01]** | _quel(s) module(s) npm choisir ou découvrir ?_ | [issues][appendix-issues]
 | 💭      | Annexe B : **[Nouveautés et changements dans Node.js][a02]** | _qu'est-ce je dois prendre en compte dans cette nouvelle version ?_ | [issues][appendix-issues]
 | 💭      | Annexe C : **[Utilisation de cet ouvrage grâce au module npm{nbsp}nodebook][a03]** | _ça marche comment l'exécution des exemples du livre depuis mon terminal ?_ | [issues][appendix-issues]
+| 💭      | Annexe D : **[Une chaîne de publication basée sur Node.js][a04]** | _comment est-ce que cet ouvrage est conçu en utilisant Node.js ?_ | [issues][appendix-issues]
 
 # Lire l'ouvrage
 
@@ -161,6 +162,7 @@ $ npm test
 | Annexe A    | ![][a01-deps]    | ![][a01-security]
 | Annexe B    | ![][a02-deps]    | ![][a02-security]
 | Annexe C    | ![][a03-deps]    | ![][a03-security]
+| Annexe D    | ![][a04-deps]    | ![][a04-security]
 
 ## Génération des épreuves
 
@@ -276,3 +278,6 @@ Les exemples de code sont placés sous la [licence MIT][].
 [a03]: appendix-c/index.adoc
 [a03-deps]: https://david-dm.org/oncletom/nodebook/status.svg?path=appendix-c
 [a03-security]: https://snyk.io/test/github/oncletom/nodebook/badge.svg?targetFile=appendix-c/package.json
+[a04]: appendix-d/index.adoc
+[a04-deps]: https://david-dm.org/oncletom/nodebook/status.svg?path=appendix-d
+[a04-security]: https://snyk.io/test/github/oncletom/nodebook/badge.svg?targetFile=appendix-d/package.json
